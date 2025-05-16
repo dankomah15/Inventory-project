@@ -96,16 +96,11 @@ const RegisterForm = ({image}) => {
                  </button>
 
                   </form>
-                  Already have an account?<button 
-                 type="submit" 
             
-                  className="w-18 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-xl"
-                 >
-                  signin
-                 </button>
+                
+            
 
-
-                </div >
+                </div>
                 
                 
         
