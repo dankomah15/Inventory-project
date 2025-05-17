@@ -41,7 +41,7 @@ const RegisterForm = ({ image }) => {
     <div className="min-h-screen flex items-center justify-center bg-blue-700">
       <div className="bg-white p-8 rounded-2xl shadow-md w-full max-w-md">
         
-        {/* Conditionally render image if passed as prop */}
+        
         {image && (
           <div className="flex justify-center mb-6">
             <img 
