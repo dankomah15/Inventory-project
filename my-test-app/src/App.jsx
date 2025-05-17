@@ -11,9 +11,7 @@ import Footer from "./Components/Footer";
 
 
 function App() {
-  const phone = {
-    logo: logo,
-  }
+  
   return (
     <>
     <div>
@@ -23,7 +21,7 @@ function App() {
       <Header image={logo}/>
       <StockPurchase/>
       <Footer/>
-       
+
 
     </div>
     </>

@@ -69,7 +69,7 @@ const StockPurchase = () => {
     <div className="p-6 space-y-8 bg-blue-700 min-h-screen">
       <h2 className="text-2xl font-bold text-white">Current Stock Level</h2>
       <div className="overflow-x-auto">
-        <table className="min-w-full table-auto border border-gray-400 text-white">
+        <table className="min-w-full table-auto border border-gray-400 text-black">
           <thead>
             <tr className="bg-gray-200">
               <th className="border p-2">Category</th>
@@ -95,7 +95,7 @@ const StockPurchase = () => {
         </table>
       </div>
 
-      <div className="min-h-screen flex items-center justify-center bg-blue-600">
+      <div className="min-h-screen flex items-center justify-center bg-blue-700">
   <form
     onSubmit={(e) => {
       e.preventDefault();
