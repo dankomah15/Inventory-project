@@ -67,7 +67,7 @@ const StockPurchase = () => {
 
   return (
     <div className="p-6 space-y-8 bg-blue-700 min-h-screen">
-      <h2 className="text-2xl font-bold text-white">Current Stock Level</h2>
+      <h2 className="text-2xl font-bold text-white flex justify-center ">Current Stock Level</h2>
       <div className="overflow-x-auto">
         <table className="min-w-full table-auto border border-gray-400 text-black">
           <thead>
@@ -103,7 +103,7 @@ const StockPurchase = () => {
     }}
     className="space-y-4 bg-white p-6 shadow-md max-w-sm w-full rounded-xl"
   >
-    <h3 className="text-xl font-semibold text-center text-black">Purchase Form</h3>
+    <h3 className="text-xl font-semibold text-center text-black ">Purchase Form</h3>
 
     {["buyerName", "category", "productName", "brand", "quantity"].map((field) => (
       <div key={field}>
